@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shanu Kumar Portfolio || Full Stack Developer || Java Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b76e48a3f3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Shanu </span><br>From India</h1>
+            </div>
+        </div>
+
+    </div>
+    <!-------------About Shanu--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/shanu.png" width="150px" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Career driven person, whose curiosity is piqued by latest technology and IT developments. Looking
+                        for
+                        opportunities to responsibly grow and contribute to the software development community</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Full Stack Developer</span><br>Developing Front-End and Back-End.</li>
+                            <li><span>App Developer</span><br>Developing Android Application using Android Studio.</li>
+                            <li><span>Blockchain Developer</span><br>Developing Front-End and Back-End.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Full Stack Developer</span><br>Developing Front-End and Back-End.</li>
+                            <li><span>App Developer</span><br>Developing Android Application using Android Studio.</li>
+                            <li><span>Blockchain Developer</span><br>Developing Front-End and Back-End.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>ST.Teresa's School. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Bhagalpur,
+                                    Bihar-812005</span><br>ICSE Class 10 Percentage: 83.5 &nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp;April 2015 - May 2016
+                            </li>
+                            <li><span>Sri Chaitanya Techno School &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Visakhapatnam,
+                                    Andhra Pradesh</span><br>CBSE Class 12 PCM:78.8 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                Apr 2017 - May 2018</li>
+                            <li><span>CMR Institute of Technology &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                    Bengaluru,Karnataka</span><br>B.E Computer Science GPA: 8.14 &nbsp; &nbsp; &nbsp;
+                                &nbsp; &nbsp; August-2019</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Full Stack Developer</h2>
+                    <p>Full Stack development using HTML/CSS, JavaScript,ReactJS,NodeJS.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Java Developer</h2>
+                    <p>Proficiency in Java.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Android Developer</h2>
+                    <p>Android development using Android Studio using Kotlin/Java.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PORTFOLIO  -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Project</h1>
+            <div class="project-list">
+                <div class="work">
+                    <img src="images/CarPool.png">
+                    <div class="layer">
+                        <h3>Car Pooling App</h3>
+                        <p>A fully Functional full stack development project includes HTML, CSS, JavaScript and
+                            MySQL. It provides mobility solutions by connecting customers to drivers and a wide range of
+                            vehicles across the area enabling convenience and transparency for travelers.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div><br>
+                <div class="work">
+                    <img src="images/fitnessTracker.png">
+                    <div class="layer">
+                        <h3>Fitness Tracker App</h3>
+                        <p>A fully functional android application to help usersstay fit by tracking their well-being
+                            journey, assisting them with proper diets and helping locate nearby gym facilities using
+                            Kotlin.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div><br>
+                <div class="work">
+                    <img src="images/NGO.png">
+                    <div class="layer">
+                        <h3>NGO Management Application Using PHP</h3>
+                        <p>It is a Web Application to manage all the activities organized in a running NGO. It manages
+                            all
+                            the transactions details and uses the database for storing information. It helps keep a
+                            record of all their
+                            contributions and volunteering in NGO.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> shanusah8001@gmail.com</p>
+                    <p><i class="fa-solid fa-paper-plane"></i> +91 9304641125</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/shanu-kumar-95b644214/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/ShanuXo/FitnessApp"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/http.shanu__/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/SHANU KUMAR04.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Shanu Kumar. Made by <i class="fa-solid fa-heart"></i> XOTECH</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemn = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemn.style.right = "0";
+        }
+        function closemenu() {
+            sidemn.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby6LO1D0Fnhfrh1aAGEtULfW6OsXU-WZr9CRK6JEsHnvTbPcilUks687hqI3vz4vrp3/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
